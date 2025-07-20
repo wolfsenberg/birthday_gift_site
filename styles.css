@@ -1,0 +1,85 @@
+body {
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    background: linear-gradient(#49a3ae, #02954f);
+    color: #ffffff;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 1px black;
+}
+
+#bff-img {
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid #ea5724;
+    margin-bottom: 10px;
+}
+
+#bday-age {
+    background: #ea5724;
+    padding: 5px 10px;
+    margin: 5px 0 10px 0;
+}
+
+#bday-date {
+    margin: 0;
+    background: #ea5724;
+    padding: 5px 10px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+#gift-img-cheers {
+    height: 200px;
+}
+
+.gift-img {
+    margin: 20px auto;
+    max-width: 400px;
+    height: 400px;
+    border: 6px solid #ea5724;
+    border-radius: 10px;
+    background-image: url("birthday_gift.png");
+    background-size: cover;
+}
+
+#gift-img-happy:hover {
+    background-image: url("dancing-happy-dance.gif");
+}
+
+#gift-img-laughing:hover {
+    background-image: url("laughing.gif");
+}
+
+#gift-img-dabest:hover {
+    background-image: url("dabest.gif");
+}
+
+#gift-img-johnwick:hover {
+    background-image: url("johnwick.gif");
+}
+
+#gift-img-cheers:hover {
+    background-image: url("cheers.gif");
+}
+
+a {
+    color: white;
+}
